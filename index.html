@@ -1,76 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="custom.css">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
 
-</head>
+        <link rel="stylesheet" href="css/custom.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Curso de Programação</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#diferenciais">Diferenciais</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#modulos">Conteúdo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-light" href="#inscricao">Inscreva-se</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-<body>
+        <header class="row align-items-center ">
+            <div class="col text-center">
+                <h1>Curso Imperdivel de Programação</h1>
+                <h4>05 passos para dar o passo 1</h4>
+                
+                <div class="ps-4">
+                    <hr>
+                </div>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a href="" class="btn btn-lg btn-outline-primary">Saiba mais</a>
 
-        <a class="navbar-brand" href="#">Curso Imperdível</a>
+                <a href="" class="btn btn-lg btn-primary">Inscreva-se</a>
+            </div>
+            <div class="col text-center">
+                <img width="70%" src="/images/programmer.svg" alt="">
+            </div>
+        </header>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <section id="diferenciais" class="bg-dark text-light text-center pt-5 diferenciais">   
+            <h2 class="mt-3">Por que esse curso é melhor que os outros?</h2>
 
-            <span class="navbar-toggler-icon"></span>
+            <hr width="50%" class="m-auto mt-5">
 
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col">
+                        <article class="border border-light rounded p-3">
+                            <i class="material-icons text-danger">favorite</i>   
+                            <br>
+                            
+                            <p class="fw-bold">Imperdivel</p>
 
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Início</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#sobre">Sobre o Curso</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#conteudo">Conteúdo</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#inscricao">Inscrição</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contato">Contato</a>
-                </li>
-                <li class="nav-item">
-                    <a class="btn btn-ligth" href="#inscricao">Inscreva-se</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+                            <p class="text-secondary">
+                                É importante questionar o quanto o comprometimento entre as equipes garante a contribuição de um grupo importante na determinação dos conhecimentos estratégicos para atingir a excelência
+                            </p>
+                        </article>
+                    </div>
 
-    <header>
-        Conteudo do topo
-    </header>
+                    <div class="col">
+                        <article class="border border-light rounded p-3">
+                            <i class="material-icons text-primary">home</i>   
+                            <br>
+                            
+                            <p class="fw-bold">Remoto</p>
 
-    <section>
-        Apresentacao
-    </section>
-        Diferenciais
-    <section>
-        Modulos
-    </section>
-        Inscreva-se
-    <section>
-        Contato
-    </section>
+                            <p class="text-secondary">
+                                É importante questionar o quanto o comprometimento entre as equipes garante a contribuição de um grupo importante na determinação dos conhecimentos estratégicos para atingir a excelência
+                            </p>
+                        </article>
+                    </div>
 
-    <section>
+                    <div class="col">
+                        <article class="border border-light rounded p-3">
+                            <i class="material-icons text-warning">grade</i>   
+                            <br>
+                            
+                            <p class="fw-bold">Brilhante</p>
 
-    </section>
+                            <p class="text-secondary">
+                                É importante questionar o quanto o comprometimento entre as equipes garante a contribuição de um grupo importante na determinação dos conhecimentos estratégicos para atingir a excelência
+                            </p>
+                        </article>
+                    </div>
+                </div>
 
-    <section>
+                <div class="mt-5">
+                    <a href="#" class="btn btn-lg btn-primary">CALL TO ACTION</a>
+                </div>
+            </div>
 
-    </section>
+            
+        </section>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+        <section id="sobre" class="text-center pt-5 faq">
+            <h2 class="mt-3">Principais dúvidas para fazer esse curso</h2>
+
+            <hr width="50%" class="m-auto mt-5">
+
+            <div class="container mt-5">
+                <div class="accordion" id="faqAccordion">
+                    <!-- Pergunta 1 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                1. Vale a pena investir em um curso de programação?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Sim, a programação é uma das habilidades mais requisitadas no mercado de trabalho atual. Com a crescente demanda por soluções digitais, empresas de todos os setores buscam profissionais com conhecimento em programação.
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Pergunta 2 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                2. Preciso ter experiência anterior para fazer o curso?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Não, o curso foi desenvolvido tanto para iniciantes quanto para aqueles que já possuem algum conhecimento em programação. Todo o conteúdo é apresentado de forma acessível, permitindo que qualquer pessoa possa aprender.
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Pergunta 3 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                3. Quais linguagens de programação vou aprender?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                No curso, você aprenderá linguagens amplamente utilizadas no mercado, como Python, JavaScript, HTML, CSS, e mais. A combinação dessas linguagens permite que você desenvolva desde páginas web até aplicativos robustos.
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Pergunta 4 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                4. O curso oferece certificado?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Sim, ao final do curso, você receberá um certificado de conclusão, que poderá ser usado para comprovar seus conhecimentos e aumentar suas chances de emprego ou promoções em sua área.
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Pergunta 5 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                5. Existe suporte para dúvidas durante o curso?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Sim, oferecemos suporte contínuo durante o curso, seja através de fóruns, tutores online ou materiais adicionais, para garantir que você consiga tirar todas as suas dúvidas e ter o melhor aproveitamento.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-5">
+                    <a href="#" class="btn btn-lg btn-primary">CALL TO ACTION</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="modulos" class="text-center bg-secondary pt-5">
+            <h2 class="mt-3 text-light">O que você vai aprender?</h2>
+
+            <hr width="50%" class="m-auto mt-5">
+
+            <div class="container mt-5">
+                <table class="table table-bordered">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Módulo</th>
+                            <th>Título</th>
+                            <th>Descrição</th>
+                            <th>Duração</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Módulo 1 -->
+                        <tr>
+                            <td>Módulo 1</td>
+                            <th>Introdução à Programação</th>
+                            <td>Aprenda os fundamentos da programação, incluindo variáveis, estruturas de controle e lógica de programação.</td>
+                            <td>2 semanas</td>
+                        </tr>
+                        <!-- Módulo 2 -->
+                        <tr>
+                            <td>Módulo 2</td>
+                            <th>Desenvolvimento Web com HTML e CSS</th>
+                            <td>Entenda como criar e estilizar páginas web usando HTML e CSS, abordando desde o básico até layouts responsivos.</td>
+                            <td>3 semanas</td>
+                        </tr>
+                        <!-- Módulo 3 -->
+                        <tr>
+                            <td>Módulo 3</td>
+                            <th>Programação com JavaScript</th>
+                            <td>Aprenda a criar interatividade nas páginas web com JavaScript, incluindo manipulação de DOM e eventos.</td>
+                            <td>4 semanas</td>
+                        </tr>
+                        <!-- Módulo 4 -->
+                        <tr>
+                            <td>Módulo 4</td>
+                            <th>Introdução ao Backend com NodeJS</th>
+                            <td>Descubra como desenvolver o backend de uma aplicação web usando ExpressJS, trabalhando com frameworks como NextJS.</td>
+                            <td>4 semanas</td>
+                        </tr>
+                        <!-- Módulo 5 -->
+                        <tr>
+                            <td>Módulo 5</td>
+                            <th>Bancos de Dados e SQL</th>
+                            <td>Aprenda como criar e manipular bancos de dados relacionais usando SQL para armazenar e acessar informações.</td>
+                            <td>3 semanas</td>
+                        </tr>
+                        <!-- Módulo 6 -->
+                        <tr>
+                            <td>Módulo 6</td>
+                            <th>Projeto Final</th>
+                            <td>Desenvolva um projeto completo aplicando todos os conhecimentos adquiridos durante o curso.</td>
+                            <td>2 semanas</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="mt-5">
+                    <a href="#" class="btn btn-lg btn-primary">CALL TO ACTION</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-5 cadastro">
+            <h2 class="mt-3 text-center">Matricule-se</h2>
+
+            <hr width="50%" class="m-auto mt-5">
+
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col">
+                        <img src="img/form_register.svg" width="80%" alt="">
+                    </div>
+                    <div class="col">
+                        <div class="card card-body">
+                            <form>
+                                <!-- Passo 1: Informações Pessoais -->
+                                <div id="step1" class="step">
+                                    <h4>Passo 1: Informações Pessoais</h4>
+                                    <div class="mb-3">
+                                        <label for="firstName" class="form-label">Nome</label>
+                                        <input type="text" class="form-control" id="firstName" placeholder="Digite seu nome">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="lastName" class="form-label">Sobrenome</label>
+                                        <input type="text" class="form-control" id="lastName" placeholder="Digite seu sobrenome">
+                                    </div>
+                                    <button type="button" class="btn btn-primary" id="next1">Próximo</button>
+                                </div>
+                    
+                                <!-- Passo 2: Dados de Contato -->
+                                <div id="step2" class="step d-none">
+                                    <h4>Passo 2: Dados de Contato</h4>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="phone" class="form-label">Telefone</label>
+                                        <input type="tel" class="form-control" id="phone" placeholder="Digite seu telefone">
+                                    </div>
+                                    <button type="button" class="btn btn-secondary" id="prev2">Voltar</button>
+                                    <button type="button" class="btn btn-primary" id="next2">Próximo</button>
+                                </div>
+                    
+                                <!-- Passo 3: Campo de Dúvida -->
+                                <div id="step3" class="step d-none">
+                                    <h4>Passo 3: Dúvida</h4>
+                                    <div class="mb-3">
+                                        <label for="doubt" class="form-label">Tem alguma dúvida sobre o curso?</label>
+                                        <textarea class="form-control" id="doubt" rows="4" placeholder="Escreva sua dúvida aqui"></textarea>
+                                    </div>
+                                    <button type="button" class="btn btn-secondary" id="prev3">Voltar</button>
+                                    <button type="submit" class="btn btn-success">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-dark pt-5 text-light endereco">
+            <h2 class="mt-3 text-center">Venha fazer uma aula experimental</h2>
+
+            <hr width="50%" class="m-auto mt-5">
+
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63699.898028443844!2d-38.58944048233138!3d-3.7570604709397557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74bc94202f473%3A0x5eb2ad55d85acb20!2sDigital%20College%20Bezerra!5e0!3m2!1spt-BR!2sbr!4v1725924642016!5m2!1spt-BR!2sbr" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col">
+                        <p>
+                            <span class="fw-bold">Digital College Bezerra</span>
+                        </p>
+                        <p>
+                            Edifício Harmony Premium Business <br> Av. Humberto Monte, 2929 - Pici, Fortaleza - CE, 60440-593
+                        </p>
+
+                        <p>
+                            <a href="mailto:contato@site.com.br">
+                                <i class="material-icons">email</i>
+                                contato@site.com.br
+                            </a>
+                        </p>
+                        <p>
+                            <a href="tel:+85988888888">    
+                                <i class="material-icons">phone</i>
+                                (85) 9 8888-1234
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center rodape p-5">
+            <p>
+                Feito com <i class="material-icons text-danger">favorite</i> usando Bootstrap e outras coisas do mundo
+                <br>
+                lá pelas bandas da terra do <i class="material-icons text-warning">sunny</i>
+            </p>
+
+            <div class="mt-5">
+                <button class="btn btn-outline-dark" id="btn_segredo">
+                    Clique aqui e conheça o segredo para virar um FullStack
+                </button>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="js/form-stepper.js"></script>
+    </body>
 </html>
+
+
